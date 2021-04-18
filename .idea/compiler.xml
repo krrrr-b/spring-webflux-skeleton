@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.2.RELEASE/15631495314ae7aabfc82266094ee5c173d86f71/spring-boot-configuration-processor-2.3.2.RELEASE.jar" />
+          <entry name="$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+        </processorPath>
+        <module name="spring-webflux-skeleton.internal-api.main" />
+        <module name="spring-webflux-skeleton.client.common.main" />
+        <module name="spring-webflux-skeleton.client.unknown1-client.main" />
+        <module name="spring-webflux-skeleton.client.unknown2-client.main" />
+        <module name="spring-webflux-skeleton.data.data-redis.main" />
+        <module name="spring-webflux-skeleton.data.main" />
+        <module name="spring-webflux-skeleton.core.common.main" />
+        <module name="spring-webflux-skeleton.core.common-api.main" />
+        <module name="spring-webflux-skeleton.data.data-mongo.main" />
+        <module name="spring-webflux-skeleton.client.main" />
+        <module name="spring-webflux-skeleton.core.main" />
+        <module name="spring-webflux-skeleton.data.common.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="spring-webflux-skeleton.batch" target="15" />
+      <module name="spring-webflux-skeleton.batch.main" target="15" />
+      <module name="spring-webflux-skeleton.batch.test" target="15" />
+      <module name="spring-webflux-skeleton.data.data-mysql" target="15" />
+      <module name="spring-webflux-skeleton.data.data-mysql.main" target="15" />
+      <module name="spring-webflux-skeleton.data.data-mysql.test" target="15" />
+      <module name="spring-webflux-skeleton.event" target="15" />
+      <module name="spring-webflux-skeleton.event-kafka-consumer" target="15" />
+      <module name="spring-webflux-skeleton.event-kafka-consumer.main" target="15" />
+      <module name="spring-webflux-skeleton.event-kafka-consumer.test" target="15" />
+      <module name="spring-webflux-skeleton.event.common" target="15" />
+      <module name="spring-webflux-skeleton.event.common.main" target="15" />
+      <module name="spring-webflux-skeleton.event.common.test" target="15" />
+      <module name="spring-webflux-skeleton.event.event-kafka-publisher" target="15" />
+      <module name="spring-webflux-skeleton.event.event-kafka-publisher.main" target="15" />
+      <module name="spring-webflux-skeleton.event.event-kafka-publisher.test" target="15" />
+      <module name="spring-webflux-skeleton.event.main" target="15" />
+      <module name="spring-webflux-skeleton.event.test" target="15" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
