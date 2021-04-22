@@ -8,13 +8,13 @@ tasks.getByName<Jar>("jar") {
     enabled = true
 }
 
-val jakartaVersion = "8.0.0"
-val mongoDbEncryptVersion = "2.6.0"
-val mongoDbAsyncDriverVersion = "3.12.8"
-val mongoReactiveStreamsVersion = "4.2.2"
-val springDataMongoDbVersion = "3.1.7"
-val springDataMongoDbReactiveVersion = "2.4.2"
-val jodaTimeVersion = "2.10.10"
+val jakartaVersion: String by project
+val mongoDbEncryptVersion: String by project
+val mongoDbAsyncDriverVersion: String by project
+val mongoReactiveStreamsVersion: String by project
+val springDataMongoDbVersion: String by project
+val springDataMongoDbReactiveVersion: String by project
+val jodaTimeVersion: String by project
 
 dependencies {
     api(project(":data:common"))

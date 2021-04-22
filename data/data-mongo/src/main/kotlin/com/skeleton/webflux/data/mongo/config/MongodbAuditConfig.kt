@@ -15,9 +15,7 @@ class MongodbAuditConfig {
     @Bean(name = ["auditingDateTimeProvider"])
     fun dateTimeProvider(): DateTimeProvider {
         return DateTimeProvider {
-            Optional.of(LocalDateTime.now(ZoneId.of("Asia/Seoul"))
-                // @todo. 타임존 수정
-                .plusHours(9))
+            Optional.of(LocalDateTime.now(ZoneId.of("Asia/Seoul")))
         }
     }
 }

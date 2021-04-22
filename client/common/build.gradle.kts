@@ -8,8 +8,8 @@ tasks.getByName<Jar>("jar") {
     enabled = true
 }
 
-val feignReactorVersion = "2.0.22"
-val openFeignVersion = "2.2.6.RELEASE"
+val feignReactorVersion: String by project
+val openFeignVersion: String by project
 
 dependencies {
     api(project(":core:common-api"))

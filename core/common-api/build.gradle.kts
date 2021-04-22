@@ -8,9 +8,10 @@ tasks.getByName<Jar>("jar") {
     enabled = true
 }
 
-val nettyVersion = "4.1.45.Final"
-val reactorKotlinExtensionsVersion = "1.1.1"
-val nettyReactorVersion = "0.9.7.RELEASE"
+val nettyVersion: String by project
+val nettyReactorCoreVersion: String by project
+val reactorKotlinExtensionsVersion: String by project
+val nettyReactorVersion: String by project
 
 dependencies {
     api(project(":core:common"))
@@ -19,7 +20,7 @@ dependencies {
     api("io.netty:netty-buffer:$nettyVersion")
     api("io.netty:netty-transport-native-epoll:$nettyVersion:linux-x86_64")
 
-    api("io.projectreactor:reactor-core:3.4.4")
+    api("io.projectreactor:reactor-core:$nettyReactorCoreVersion")
     api("io.projectreactor.addons:reactor-extra")
     api("io.projectreactor.kotlin:reactor-kotlin-extensions:$reactorKotlinExtensionsVersion")
     api("io.projectreactor.netty:reactor-netty:$nettyReactorVersion")

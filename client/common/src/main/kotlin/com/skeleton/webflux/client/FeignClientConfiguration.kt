@@ -12,7 +12,7 @@ import reactivefeign.webclient.WebReactiveOptions
 
 class FeignClientConfiguration<T> {
     companion object {
-        const val COMMON_RETRY_COUNT = 0
+        const val COMMON_RETRY_COUNT = 2
         const val COMMON_READ_TIMEOUT_MILLIS = 5000L
         const val COMMON_CONNECT_TIMEOUT_MILLIS = 10000L
     }

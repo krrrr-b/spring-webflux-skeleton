@@ -7,7 +7,7 @@ import reactor.core.publisher.Mono
 
 @Headers("Content-Type: application/json")
 @ReactiveFeignClient(name = "unknown1")
-interface UnknownClient {
+interface Unknown1Client {
     @GetMapping
     fun test(): Mono<String>
 }
