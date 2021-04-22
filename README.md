@@ -21,8 +21,8 @@
 
 - `data`
   - `common`: 공통 데이터 및 설정 모듈
-  - `bank-data-mongo`: 몽고 데이터 모듈
-  - `bank-data-redis`: 레디스 데이터 모듈
+  - `data-mongo`: 몽고 데이터 모듈
+  - `data-redis`: 레디스 데이터 모듈
   
 - `core`
   - `common`: 공통 설정 모듈
