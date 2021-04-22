@@ -6,7 +6,6 @@
     - spring data redis reactive
     - spring data mongo reactive
     - spring reactive kafka (*todo)
-    - spring batch
   
 - data
     - redis
