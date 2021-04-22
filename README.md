@@ -14,7 +14,7 @@
 
 - etc
     - resilience4j
-    - seign reactor
+    - feign reactor
   
 ## package architecture
 - `internal-api`: api 제공을 프레젠테이션, 비즈니스 레이어 모듈
